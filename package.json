@@ -1,5 +1,7 @@
 {
-    "name": "akshat-gupta",
+    "name": "abayomi-ogunlowo",
+    "description": "My personal website",
+    "author": "Abayomi Ogunlowo",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
