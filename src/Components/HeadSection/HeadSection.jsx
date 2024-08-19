@@ -1,9 +1,9 @@
 import { Container, Grid, Typography, useMediaQuery, useTheme, Button } from "@mui/material";
 import styles from "./HeadStyles.jsx";
-import AkshatGupta from "../../Assets/Public_Speaking_akshatvg.jpeg";
+import AbayomiOgunlowo from "../../Assets/Public_Speaking_abayomi.jpeg"; // Replace with your image
 import Typewriter from 'typewriter-effect';
 import { useEffect } from "react";
-import Resume from "../../Assets/Akshat_Gupta_Resume.pdf";
+import Resume from "../../Assets/Abayomi_Ogunlowo_Resume.pdf"; // Replace with your resume
 
 function HeadSection() {
     const classes = styles();
@@ -19,34 +19,27 @@ function HeadSection() {
         <>
             {/* Head Section */}
             <Container maxWidth="lg" id="head-section">
-                <Grid
-                    container
-                    className={classes.root}
-                >
+                <Grid container className={classes.root}>
                     {small && (
-                        <Grid
-                            item
-                            xs={12}
-                            md={6}
-                            style={{ textAlign: "center" }}
-                        >
-                            <img src={AkshatGupta} alt="Akshat Gupta" className={classes.heroImage} draggable="false" />
+                        <Grid item xs={12} md={6} style={{ textAlign: "center" }}>
+                            <img src={AbayomiOgunlowo} alt="Abayomi Ogunlowo" className={classes.heroImage} draggable="false" />
                         </Grid>
                     )}
-                    <Grid
-                        item
-                        xs={12}
-                        md={6}
-                        style={{ minHeight: "200px" }}
-                    >
-                        <Typography variant="h3" className={classes.welcomeTitle}>Hey!</Typography>
+                    <Grid item xs={12} md={6} style={{ minHeight: "200px" }}>
+                        <Typography variant="h3" className={classes.welcomeTitle}>Hello!</Typography>
                         <Typography variant="h3" className={classes.title}>
-                            I'm <span className={classes.textColored}>Akshat.</span>
+                            I'm <span className={classes.textColored}>Abayomi.</span>
                         </Typography>
                         <Typography variant="h6" className={classes.subtitle}>
                             <Typewriter
                                 options={{
-                                    strings: ['I plan, strategise, manage and execute large-scale projects.', 'I write code and develop projects.', 'I  can make a project, a business.', 'I can help your product get users and a product-market fit.', 'I have recruited and managed teams of 50+ people.'],
+                                    strings: [
+                                        'I develop scalable software solutions.',
+                                        'I specialize in full-stack development.',
+                                        'I manage and lead tech projects.',
+                                        'I bring innovative ideas to life.',
+                                        'I collaborate with teams to achieve goals.'
+                                    ],
                                     autoStart: true,
                                     loop: true,
                                 }}
@@ -56,31 +49,23 @@ function HeadSection() {
                         <Button variant="outlined" href={Resume} className={classes.altBtn}>Download Resume</Button>
                     </Grid>
                     {!small && (
-                        <Grid
-                            item
-                            xs={12}
-                            md={6}
-                            style={{ textAlign: "center" }}
-                        >
-                            <img src={AkshatGupta} alt="Akshat Gupta" className={classes.heroImage} draggable="false" />
+                        <Grid item xs={12} md={6} style={{ textAlign: "center" }}>
+                            <img src={AbayomiOgunlowo} alt="Abayomi Ogunlowo" className={classes.heroImage} draggable="false" />
                         </Grid>
                     )}
                 </Grid>
-                {!small && (<span className="scroll-btn">
-                    <a href="#about-section" onClick={e => {
-                        let whereTo = document.getElementById("about-section");
-                        e.preventDefault();
-                        whereTo && whereTo.scrollIntoView({ behavior: "smooth", block: "start" });
-                    }} style={{
-                        display: "flex", justifyContent: "center",
-                    }}
-                    >
-                        <span className="mouse">
-                            <span>
+                {!small && (
+                    <span className="scroll-btn">
+                        <a href="#about-section" onClick={e => {
+                            let whereTo = document.getElementById("about-section");
+                            e.preventDefault();
+                            whereTo && whereTo.scrollIntoView({ behavior: "smooth", block: "start" });
+                        }} style={{ display: "flex", justifyContent: "center" }}>
+                            <span className="mouse">
+                                <span></span>
                             </span>
-                        </span>
-                    </a>
-                </span>
+                        </a>
+                    </span>
                 )}
             </Container>
         </>
@@ -88,4 +73,3 @@ function HeadSection() {
 }
 
 export default HeadSection;
-

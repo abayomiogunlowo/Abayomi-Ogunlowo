@@ -16,51 +16,41 @@ function AboutSection() {
         <>
             {/* About Section */}
             <Container maxWidth="lg" id="about-section">
-                <Grid
-                    container
-                    className={classes.root}
-                >
-                    <Grid
-                        item
-                        xs={12}
-                    >
+                <Grid container className={classes.root}>
+                    <Grid item xs={12}>
                         <Typography variant="h3" className={classes.title}>
                             About <span className={classes.textColored}>Me</span>
                         </Typography>
                         <Typography variant="h6" className={classes.subtitle}>
-                            CEO of <a href="https://www.peritys.com">Peritys</a> and entrepreneur from Chennai, India, I specialize in leveraging IT and marketing consultancy to bring SaaS innovations like <a href="https://www.interacts.ai">Interacts AI</a> to market. My journey began with founding VAMSA Tech Private Limited during my university years, where I discovered my passion for converting groundbreaking ideas into reality. My experience includes a leadership role at LegalForce RAPC Worldwide, guiding global teams in engineering, design, and product management.
+                            Software Engineer from Nigeria, with expertise in building scalable and efficient systems using modern technologies. I have worked on a variety of projects ranging from SaaS applications to enterprise-level solutions.
                         </Typography>
                         <Typography variant="h6" className={classes.subtitle}>
                             What I bring to the table:
                             <ul>
-                                <li><b>Strategic Leadership:</b> Proven ability in ideation, developing offshore development centers, and global expansion, transforming concepts into profitable business models.</li>
-                                <li><b>Project Mastery:</b> Expert in navigating the complete project lifecycle, ensuring products resonate with their market and deliver exceptional user experiences.</li>
-                                <li><b>Technical Acumen:</b> A foundation in software development and DevOps, committed to building scalable, efficient systems.</li>
-                                <li><b>Team Development:</b> A track record of assembling and nurturing teams, promoting innovation, and achieving collective excellence.</li>
-                                <li><b>Strategic IT Consultancy:</b> Aligning technology strategies with business goals to optimize growth and process efficiency.</li>
-                                <li><b>Financial Stewardship:</b> Skilled in navigating the financial and operational facets of business to fuel sustainable growth.</li>
+                                <li><b>Technical Expertise:</b> Proficient in Java, Spring-Boot, React, FastAPI, and a range of database technologies like MySQL and PostgreSQL.</li>
+                                <li><b>Project Management:</b> Experienced in managing projects from inception to deployment, ensuring quality and timely delivery.</li>
+                                <li><b>Innovative Solutions:</b> Focused on creating effective solutions that solve real-world problems, with a keen eye on scalability and performance.</li>
+                                <li><b>Team Collaboration:</b> Skilled in working with cross-functional teams, fostering an environment of collaboration and continuous learning.</li>
+                                <li><b>Strategic Thinking:</b> Aligning technology solutions with business goals to drive growth and efficiency.</li>
                             </ul>
                         </Typography>
                         <Typography variant="h6" className={classes.subtitle}>
-                            I am driven by the challenge of turning the nascent stages of ideas into thriving business entities, demonstrating a keen ability to scale ventures from zero to one across diverse global landscapes.
+                            My passion lies in taking innovative ideas and turning them into reality, ensuring they are functional and user-friendly.
                         </Typography>
                     </Grid>
                 </Grid>
-                {!small && (<span className="scroll-btn">
-                    <a href="#skills-section" onClick={e => {
-                        let whereTo = document.getElementById("skills-section");
-                        e.preventDefault();
-                        whereTo && whereTo.scrollIntoView({ behavior: "smooth", block: "start" });
-                    }} style={{
-                        display: "flex", justifyContent: "center",
-                    }}
-                    >
-                        <span className="mouse">
-                            <span>
+                {!small && (
+                    <span className="scroll-btn">
+                        <a href="#skills-section" onClick={e => {
+                            let whereTo = document.getElementById("skills-section");
+                            e.preventDefault();
+                            whereTo && whereTo.scrollIntoView({ behavior: "smooth", block: "start" });
+                        }} style={{ display: "flex", justifyContent: "center" }}>
+                            <span className="mouse">
+                                <span></span>
                             </span>
-                        </span>
-                    </a>
-                </span>
+                        </a>
+                    </span>
                 )}
             </Container>
         </>

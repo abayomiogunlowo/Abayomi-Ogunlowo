@@ -46,7 +46,7 @@ function Header(props) {
                     to={`/`}
                     style={{ textDecoration: "none" }}
                 >
-                    <Typography variant="h5" className={classes.mainLogo}>Akshat&nbsp;<span className={classes.textColored}>Gupta</span></Typography>
+                    <Typography variant="h5" className={classes.mainLogo}>Abayomi&nbsp;<span className={classes.textColored}>Ogunlowo</span></Typography>
                 </Link>
                 {/* Right Side */}
                 <div className={classes.cta}>

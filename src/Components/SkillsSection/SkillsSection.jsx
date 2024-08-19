@@ -28,8 +28,7 @@ function SkillsSection() {
                         <Grid container spacing={1}>
                             {Content.languagesFrameworksTools.map((item, index) => {
                                 return (<Grid item key={index}><Chip label={item} color="primary" size="medium" className={(index % 2 === 0) ? classes.ChipPrimary : classes.ChipSecondary} key={index} md={3} /></Grid>);
-                            }
-                            )}
+                            })}
                         </Grid>
                         <Typography variant="h5" className={classes.subtitle}>
                             Project Management
@@ -37,8 +36,7 @@ function SkillsSection() {
                         <Grid container spacing={1}>
                             {Content.projectManagement.map((item, index) => {
                                 return (<Grid item key={index}><Chip label={item} color="primary" size="medium" className={(index % 2 === 0) ? classes.ChipPrimary : classes.ChipSecondary} key={index} md={3} /></Grid>);
-                            }
-                            )}
+                            })}
                         </Grid>
                         <Typography variant="h5" className={classes.subtitle}>
                             Marketing
@@ -46,8 +44,7 @@ function SkillsSection() {
                         <Grid container spacing={1}>
                             {Content.marketing.map((item, index) => {
                                 return (<Grid item key={index}><Chip label={item} color="primary" size="medium" className={(index % 2 === 0) ? classes.ChipPrimary : classes.ChipSecondary} key={index} md={3} /></Grid>);
-                            }
-                            )}
+                            })}
                         </Grid>
                         <Typography variant="h5" className={classes.subtitle}>
                             DevOps and Cloud Computing
@@ -55,11 +52,10 @@ function SkillsSection() {
                         <Grid container spacing={1}>
                             {Content.devOpsCloud.map((item, index) => {
                                 return (<Grid item key={index}><Chip label={item} color="primary" size="medium" className={(index % 2 === 0) ? classes.ChipPrimary : classes.ChipSecondary} key={index} md={3} /></Grid>);
-                            }
-                            )}
+                            })}
                         </Grid>
                         <Typography variant="body1" className={classes.byLine}>
-                            You can check out some of <a href="https://www.linkedin.com/in/akshatvg" className={classes.textColored} target="_blank" rel="noreferrer">my work</a> or <Link to="/contact" className={classes.textColored}>get in touch</Link> with me.
+                            You can check out some of <a href="https://www.linkedin.com/in/abayomi-ogunlowo" className={classes.textColored} target="_blank" rel="noreferrer">my work</a> or <Link to="/contact" className={classes.textColored}>get in touch</Link> with me.
                         </Typography>
                     </Grid>
                 </Grid>
@@ -69,4 +65,3 @@ function SkillsSection() {
 }
 
 export default SkillsSection;
-

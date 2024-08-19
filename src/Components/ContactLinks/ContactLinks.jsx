@@ -9,7 +9,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import Phone from '@mui/icons-material/Phone';
 import styles from "./ContactLinksStyles";
 import { Typography, Button } from "@mui/material";
-import Resume from "../../Assets/Akshat_Gupta_Resume.pdf";
+import Resume from "../../Assets/Abayomi_Ogunlowo_Resume.pdf"; // Replace with your resume file path
 
 const ContactLinks = () => {
     const classes = styles();
@@ -18,31 +18,31 @@ const ContactLinks = () => {
             <Typography variant="h5" className={classes.title}>
                 Primary
             </Typography>
-            <a href="mailto:akshatvg23@gmail.com">
+            <a href="mailto:abayomix000@gmail.com">  {/* Replace with your email */}
                 <EmailIcon fontSize="large" className={classes.email} />
             </a>
-            <a href="tel:+918799979997">
+            <a href="tel:+2348140505183">  {/* Replace with your phone number */}
                 <Phone fontSize="large" className={classes.phone} />
             </a>
             <Typography variant="h5" className={classes.title} mt={2}>
                 Social
             </Typography>
-            <a href="https://github.com/akshatvg">
+            <a href="https://github.com/abayomix000">  {/* Replace with your GitHub profile */}
                 <GitHubIcon fontSize="large" className={classes.github} />
             </a>
-            <a href="https://www.linkedin.com/in/akshatvg">
+            <a href="https://www.linkedin.com/in/abayomi-ogunlowo">  {/* Replace with your LinkedIn profile */}
                 <LinkedInIcon fontSize="large" className={classes.linkedin} />
             </a>
-            <a href="https://twitter.com/akshatvg">
+            <a href="https://twitter.com/abayomix000">  {/* Replace with your Twitter profile */}
                 <TwitterIcon fontSize="large" className={classes.twitter} />
             </a>
-            <a href="https://akshatvg.medium.com/">
+            <a href="https://medium.com/@abayomi-ogunlowo">  {/* Replace with your Medium profile */}
                 <MediumIcon fontSize="large" className={classes.medium} />
             </a>
-            <a href="https://www.youtube.com/channel/UCjyVQRAcNuim27a7Q_2X_fA?sub_confirmation=1">
+            <a href="https://www.youtube.com/@abayomi-ogunlowo">  {/* Replace with your YouTube channel */}
                 <YouTubeIcon fontSize="large" className={classes.youtube} />
             </a>
-            <a href="https://www.instagram.com/akshatvg">
+            <a href="https://www.instagram.com/abayomi-ogunlowo">  {/* Replace with your Instagram profile */}
                 <InstagramIcon fontSize="large" className={classes.instagram} />
             </a>
             <Typography variant="h5" className={classes.title} mt={2} mb={2}>
