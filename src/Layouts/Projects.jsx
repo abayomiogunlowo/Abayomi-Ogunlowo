@@ -1,8 +1,8 @@
-import Header from "../Components/Header/Header";
+import Header from "../Components/Header/Header.jsx";
 import { Container, Grid, Typography, Paper } from "@mui/material";
 import Footer from "../Components/Footer/Footer.jsx";
 import { makeStyles } from "@mui/styles";
-import Content from '../Lib/Content';
+import Content from '../Lib/Content.jsx';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -38,12 +38,12 @@ const styles = makeStyles(({ breakpoints, palette }) => {
     };
 });
 
-function Accomplishments() {
+function Projects() {
     const classes = styles();
 
     return (
         <>
-            {/* Accomplishments Page */}
+            {/* Projects Page */}
             <Header />
             <Container maxWidth="lg">
                 <Grid
@@ -55,7 +55,7 @@ function Accomplishments() {
                         xs={12}
                     >
                         <Typography variant="h3" className={classes.title}>
-                            Accomplishments
+                            Projects
                         </Typography>
                         <Paper sx={{ width: '100%', overflow: 'hidden' }}>
                             <TableContainer>
@@ -63,33 +63,33 @@ function Accomplishments() {
                                     <TableHead>
                                         <TableRow>
                                             <TableCell>
-                                                Award
+                                                Title
                                             </TableCell>
                                             <TableCell>
                                                 Description
                                             </TableCell>
                                             <TableCell>
-                                                By
+                                                Stack
                                             </TableCell>
                                             <TableCell>
-                                                When
+                                                Links
                                             </TableCell>
                                         </TableRow>
                                     </TableHead>
                                     <TableBody>
-                                        {Content.accomplishments.map((row, index) => (
+                                        {Content.projects.map((row, index) => (
                                             <TableRow hover role="checkbox" tabIndex={-1} key={index}>
                                                 <TableCell>
-                                                    {row.award}
+                                                    {row.title}
                                                 </TableCell>
                                                 <TableCell>
                                                     {row.description}
                                                 </TableCell>
                                                 <TableCell>
-                                                    {row.by}
+                                                    {row.stack}
                                                 </TableCell>
                                                 <TableCell>
-                                                    {row.when}
+                                                    {row.link}
                                                 </TableCell>
                                             </TableRow>
                                         ))}
@@ -105,4 +105,4 @@ function Accomplishments() {
     );
 }
 
-export default Accomplishments;
+export default Projects;

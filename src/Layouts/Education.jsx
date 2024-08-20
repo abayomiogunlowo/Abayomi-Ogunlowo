@@ -125,6 +125,24 @@ function Education() {
               <TimelineItem>
                 <TimelineOppositeContent color="text.primary">
                   <Typography variant="h6" component="span">
+                    {Content.education.college.type}
+                  </Typography>
+                  <Typography>{Content.education.college.duration}</Typography>
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot color="secondary" />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>
+                  <Typography variant="h6" component="span">
+                    {Content.education.college.name}
+                  </Typography>
+                  <Typography>{Content.education.college.course}</Typography>
+                </TimelineContent>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineOppositeContent color="text.primary">
+                  <Typography variant="h6" component="span">
                     {Content.education.highSchool.type}
                   </Typography>
                   <Typography>{Content.education.highSchool.duration}</Typography>
