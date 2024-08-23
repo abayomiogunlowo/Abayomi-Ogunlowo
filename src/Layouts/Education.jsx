@@ -10,7 +10,7 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import Content from '../Lib/Content';
-import AkshatGupta from '../Assets/Akshat_Gupta.jpeg';
+import AkshatGupta from '../Assets/Abayomi_Ogunlowo.jpeg';
 
 // Styles for Education page
 const styles = makeStyles(({ breakpoints, palette }) => {
