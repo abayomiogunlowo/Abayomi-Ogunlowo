@@ -1,6 +1,6 @@
 /* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 export default {
-    languagesFrameworksTools: ["Python", "ReactJS", "NextJS", "TypeScript", "JavaScript", "Flutter", "GitHub", "Shopify", "WordPress", "Firebase", "HubSpot", "jQuery", "Agora", "Go", "NodeJS", "PHP", "Dart", ".NET"],
+    languagesFrameworksTools: ["Python", "ReactJS", "NextJS", "TypeScript", "JavaScript", "Flutter", "GitHub", "Shopify", "WordPress", "Firebase", "HubSpot", "jQuery", "Agora", "Go", "NodeJS", "PHP", "Dart"],
     projectManagement: ["Jira", "Asana", "Miro", "Figma", "Postman", "Slack", "Trello", "ClickUp", "Zeplin", "Google Play Developer", "App Store Connect"],
     marketing: ["Google Ads", "Google Search Console", "Google Analytics", "Google Trends", "SEM Rush", "HubSpot", "Google Data Studio", "GoHighLevel", "Zoho CRM", "HubSpot", "Zendesk", "Meta Ads", "Social Media Marketing", "Search Engine Optimisation", "Search Engine Marketing"],
     devOpsCloud: ["DNS Management", "CI/CD", "Kubernetes", "Docker", "Nginx", "AWS", "Google Cloud", "Heroku", "Azure", "Vercel", "Netlify", "Cloudflare"],
@@ -9,7 +9,7 @@ export default {
             name: "ISM Adonai, Benin Republic",
             type: "University",
             course: "B.Sc Computer Science",
-            duration: "2018-2020"
+            duration: "2017-2020"
         },
         college: {
             name: "Maritime Academy of Nigeria, Oron",
@@ -34,7 +34,7 @@ export default {
         {
             company: "Decagon Institute",
             link: "https://decagon.institute/",
-            role: "Associate Software Engineer",
+            role: "Software Engineer",
             description: [
                 "As an Associate Software Engineer at Decagon Institute, I have been actively involved in the design and development of scalable software solutions. My role encompasses collaborating with cross-functional teams to ensure that projects meet the highest standards of quality and functionality. I am responsible for writing clean, efficient, and well-documented code, following best practices to contribute to Decagon's innovative technology solutions. My work involves continuous learning and application of new technologies to improve the efficiency and performance of the software we deliver. This position has allowed me to enhance my problem-solving skills and contribute significantly to various projects, driving the success of our clients' objectives."
             ],
