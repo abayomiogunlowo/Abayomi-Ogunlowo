@@ -18,7 +18,7 @@ const ContactLinks = () => {
             <Typography variant="h5" className={classes.title}>
                 Primary
             </Typography>
-            <a href="mailto:abayomix000@gmail.com">  {/* Replace with your email */}
+            <a href="mailto:abayomiogunlowo@gmail.com">  {/* Replace with your email */}
                 <EmailIcon fontSize="large" className={classes.email} />
             </a>
             <a href="tel:+2348098638229">  {/* Replace with your phone number */}
