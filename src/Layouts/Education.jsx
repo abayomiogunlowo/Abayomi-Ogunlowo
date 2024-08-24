@@ -84,6 +84,7 @@ function Education() {
             item
             xs={12}
           >
+            <br /> {/* Adds a line break before the title */}
             <Typography variant="h3" className={classes.title}>
               Education
             </Typography>
@@ -193,18 +194,14 @@ function Education() {
               I prefer grasping an unfamiliar concept through blog posts or examples which is why whenever I want to learn something technical, I explore Medium Blogs, Stack Overflow or GitHub repositories for better understanding.
             </Typography>
             <Typography variant="body1" mt={1}>
-              I've been certified by Microsoft, Google, Coursera and Udemy for my skills in various domains:
+              I've been certified with Devpath by Educative for my skills in various domains:
             </Typography>
             <ul mt={1} mb={2}>
-              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://www.pmi.org/certifications/certification/resources/registry">Project Management Professional</a> (Credential ID 3711794)</li>
-              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://www.credly.com/badges/5053df0e-dcc8-4330-9075-1b11b25b6ae3/github">AWS Certified Cloud Practitioner</a> (Credential ID 5053df0e-dcc8-4330-9075-1b11b25b6ae3)</li>
-              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://www.youracclaim.com/badges/92059ed2-9f17-4b35-abda-23c1c9d3ff53">Microsoft Certified: Azure Fundamentals</a> (Credential ID: CbcH-Dw8E)</li>
-              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://skillshop.exceedlms.com/student/award/63280081">Google Cloud Platform Business Professional Accreditation</a> (Credential ID: 63280081)</li>
-              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code">The Fundamentals of Digital Marketing</a> (Credential ID: P7V 2QN 63L)</li>
-              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://studentambassadors.microsoft.com/certificate/e14d1cd4-183c-43d3-aaad-34d05c6a82b6">Microsoft Learn Student Ambassador</a></li>
-              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://www.coursera.org/account/accomplishments/verify/7PLZLGHTCPFZ">Google Cloud Platform Fundamentals: Core Infrastructure</a> (Credential ID: 7PLZLGHTCPFZ)</li>
-              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://www.hackerrank.com/certificates/b7d22892d983">Python (Basic)</a> (Credential ID: B7D22892D983)</li>
-              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://bit.ly/akshatvgCertificates">All Other Certificates</a></li>
+              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://drive.google.com/uc?export=download&id=1zPueafWUuL9adf1l-k6cVFuJy-KWpYH0">A Complete Guide to Java Programming</a> (Credential ID vgA3wPFrRWVEqwwV2S8RmAw2mEJvhl)</li>
+              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://drive.google.com/uc?export=download&id=1M9kxd3DBDr-ZvSbKUdKq9iWDw8s689wg">Web Application Security</a> (Credential ID 585DM2txMlrVDYBL5tlmX24EX9WBIq)</li>
+              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://drive.google.com/uc?export=download&id=1FMc4OCQs4seAWrpsvNORjG-jIvRUt3-I">Build a Successful Developers Brand</a> (Credential ID: lOn30BIAD7Ql6j805FgZ8qjp8NkmUM)</li>
+              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://drive.google.com/uc?export=download&id=1iahPybVuhRLs-BD7a7yaPDoWM_cbVFif">Java for Programmers</a> (Credential ID: 2R50XYCRNVRMQoENvu0jR2LgRv36F3)</li>
+              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://drive.google.com/drive/folders/1qUIU1Iw3WYxDwFDOuH-yvKVeXkCqiDV2">All Certificates</a></li>
             </ul>
           </Grid>
         </Grid>

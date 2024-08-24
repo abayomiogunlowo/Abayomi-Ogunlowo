@@ -55,7 +55,7 @@ function SkillsSection() {
                             })}
                         </Grid>
                         <Typography variant="body1" className={classes.byLine}>
-                            You can check out some of <a href="https://www.linkedin.com/in/abayomi-ogunlowo" className={classes.textColored} target="_blank" rel="noreferrer">my work</a> or <Link to="/contact" className={classes.textColored}>get in touch</Link> with me.
+                            You can check out some of <a href="https://www.linkedin.com/in/abayomi-victor-ogunlowo/" className={classes.textColored} target="_blank" rel="noreferrer">my work</a> or <Link to="/contact" className={classes.textColored}>get in touch</Link> with me.
                         </Typography>
                     </Grid>
                 </Grid>
