@@ -72,7 +72,7 @@ function Projects() {
                                                 Stack
                                             </TableCell>
                                             <TableCell>
-                                                Links
+                                                Link
                                             </TableCell>
                                         </TableRow>
                                     </TableHead>
@@ -89,7 +89,9 @@ function Projects() {
                                                     {row.stack}
                                                 </TableCell>
                                                 <TableCell>
-                                                    {row.link}
+                                                    <a href={row.link} target="_blank" rel="noopener noreferrer">
+                                                        View
+                                                    </a>
                                                 </TableCell>
                                             </TableRow>
                                         ))}

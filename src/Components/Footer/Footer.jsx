@@ -11,7 +11,7 @@ function Footer() {
                 <Grid container className={classes.root}>
                     <Grid item xs={12}>
                         <Typography variant="body1" className={classes.attribution}>
-                            Developed by <a href="https://www.linkedin.com/in/abayomi-ogunlowo" className={classes.textColored} target="_blank" rel="noreferrer">Abayomi Ogunlowo</a>.
+                            Developed by <a href="https://www.linkedin.com/in/abayomi-victor-ogunlowo/" className={classes.textColored} target="_blank" rel="noreferrer">Abayomi Ogunlowo</a>.
                         </Typography>
                     </Grid>
                 </Grid>

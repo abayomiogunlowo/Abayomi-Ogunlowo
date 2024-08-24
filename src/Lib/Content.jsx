@@ -14,7 +14,7 @@ export default {
         college: {
             name: "Maritime Academy of Nigeria, Oron",
             type: "College",
-            course: "Science",
+            course: "OND Marine Engineering",
             duration: "2012-2015"
         },
         highSchool: {
@@ -93,24 +93,24 @@ export default {
         },
     ],    
     projects: [{
-        title: "Profitech 2021",
-        description: "Won the First Place in the Technology Track out of 240 registered global users.",
-        stack: "Profitech",
-        link: "Aug 2021",
+        title: "Bulk Email Verifier",
+        description: "A SaaS web application for bulk email verification, allowing users to upload their email lists in CSV or TXT format for fast and accurate validation. The application is designed to process emails 100 times faster than other available verifiers, with an architecture ready for a bulk email debouncing feature.",
+        stack: "Fast API & Next.js",
+        link: "https://firi-cloud.vercel.app",
     }, {
-        title: "DEVSPACE 2021",
-        description: "Won the Second Place in the Industrial Collaborations by Dyte track out of 1,414 registered users.",
-        stack: "Computer Society of India- VIT University",
-        link: "Mar 2021",
+        title: "Yomi Platinum Watch Store",
+        description: "Designed and implemented a wristwatch e-commerce website with integrated payment services and administrative management features. The site supports online transactions via Paystack and provides analytics and reporting through Google Data Studio.",
+        stack: "Wordpress & Google Cloud Products",
+        link: "https://yomiplatinum.com",
     }, {
-        title: "WomenTechies 2021",
-        description: "Won the Second Runner Up award in this women-centric hackathon out of around 380 registered users.",
-        stack: "DSC VIT",
-        link: "Mar 2021",
+        title: "Dammac Global Intranet",
+        description: "Developed an intranet solution for comprehensive organizational management, including staff management, client management, fleet management, sitewise supply, construction/maintenance project management, gas stations management, and more. The platform supports detailed data analysis and visualization.",
+        stack: "Google Cloud Platform",
+        link: "https://sites.google.com/view/dammacng/online-desk/executive-environment",
     }, {
-        title: "DevFest 2018",
-        description: "Won third place in my first Hackathon- DevFest 2018, hosted by DSC-VIT (earlier known as Google Developers Group) out of 150 registered teams.",
-        stack: "DSC VIT",
-        link: "Oct 2018",
+        title: "My Portfolio",
+        description: "My portfolio to showcase my projects, work history and education.",
+        stack: "React",
+        link: "https://abayomi-ogunlowo.vercel.app/",
     },],
 };
