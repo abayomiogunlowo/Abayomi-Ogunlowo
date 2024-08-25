@@ -197,10 +197,10 @@ function Education() {
               I've been certified with Devpath by Educative for my skills in various domains:
             </Typography>
             <ul mt={1} mb={2}>
-              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://drive.google.com/uc?export=download&id=1zPueafWUuL9adf1l-k6cVFuJy-KWpYH0">A Complete Guide to Java Programming</a> (Credential ID vgA3wPFrRWVEqwwV2S8RmAw2mEJvhl)</li>
-              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://drive.google.com/uc?export=download&id=1M9kxd3DBDr-ZvSbKUdKq9iWDw8s689wg">Web Application Security</a> (Credential ID 585DM2txMlrVDYBL5tlmX24EX9WBIq)</li>
-              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://drive.google.com/uc?export=download&id=1FMc4OCQs4seAWrpsvNORjG-jIvRUt3-I">Build a Successful Developers Brand</a> (Credential ID: lOn30BIAD7Ql6j805FgZ8qjp8NkmUM)</li>
-              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://drive.google.com/uc?export=download&id=1iahPybVuhRLs-BD7a7yaPDoWM_cbVFif">Java for Programmers</a> (Credential ID: 2R50XYCRNVRMQoENvu0jR2LgRv36F3)</li>
+              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://drive.google.com/file/d/1zPueafWUuL9adf1l-k6cVFuJy-KWpYH0/view?usp=drive_link">A Complete Guide to Java Programming</a> (Credential ID vgA3wPFrRWVEqwwV2S8RmAw2mEJvhl)</li>
+              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://drive.google.com/file/d/1M9kxd3DBDr-ZvSbKUdKq9iWDw8s689wg/view?usp=drive_link">Web Application Security</a> (Credential ID 585DM2txMlrVDYBL5tlmX24EX9WBIq)</li>
+              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://drive.google.com/file/d/1FMc4OCQs4seAWrpsvNORjG-jIvRUt3-I/view?usp=drive_link">Build a Successful Developers Brand</a> (Credential ID: lOn30BIAD7Ql6j805FgZ8qjp8NkmUM)</li>
+              <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://drive.google.com/file/d/1iahPybVuhRLs-BD7a7yaPDoWM_cbVFif/view?usp=drive_link">Java for Programmers</a> (Credential ID: 2R50XYCRNVRMQoENvu0jR2LgRv36F3)</li>
               <li><a target="_blank" rel="noreferrer" className={classes.hiddenLinks} href="https://drive.google.com/drive/folders/1qUIU1Iw3WYxDwFDOuH-yvKVeXkCqiDV2">All Certificates</a></li>
             </ul>
           </Grid>

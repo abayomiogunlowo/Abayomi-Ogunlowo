@@ -59,7 +59,7 @@ export default {
                 "As an Assistant Project Manager at Dammac Global, I took the initiative to address inefficiencies in fleet document management by developing a centralized intranet solution using Google Products, HTML, CSS, and JavaScript. This platform significantly improved communication, productivity, and information accessibility across various departments. My role also involved supporting the engineering project manager by streamlining his workload, managing schedules, and facilitating project follow-ups, ensuring that all projects were executed smoothly and efficiently. This experience honed my organizational, communication, and problem-solving skills, and demonstrated my ability to adapt and lead in a dynamic work environment."
             ],
             duration: "Oct 2020 - Dec 2021",
-            feedback: "",
+            feedback: "https://drive.google.com/file/d/1hOIZ4G2jJ-k56-fZEuL-Mvv7V1A-ErlR/view?usp=drive_link",
         },
         {
             company: "Total Energy Services, Allen Ikeja",
@@ -79,7 +79,7 @@ export default {
                 "At Remight Freight Concept, I began on the warehouse floor, mastering logistics and quickly moving into customs clearance. My role involved navigating complex regulations and ensuring the smooth movement of containers across borders. I coordinated logistics, optimized routes, and managed transportation schedules, which honed my skills in communication, coordination, and problem-solving. This position prepared me to thrive under pressure and find creative solutions in the fast-paced world of international logistics, equipping me with a strong foundation in the industry."
             ],
             duration: "Dec 2015 - Dec 2016",
-            feedback: "",
+            feedback: "https://drive.google.com/file/d/1hOIZ4G2jJ-k56-fZEuL-Mvv7V1A-ErlR/view?usp=drive_link",
         },
         {
             company: "G&S Shipping, Apapa, Lagos",
@@ -89,7 +89,7 @@ export default {
                 "During my internship at G&S Shipping, I worked as a Marine Engineer, starting as a cadet and quickly advancing to an oiler. My responsibilities included maintaining and lubricating the ship's engines, troubleshooting emergencies, and ensuring the smooth operation of the vessel's mechanical systems. This hands-on experience provided me with a deep understanding of marine engineering, teamwork, and resilience under challenging conditions. The lessons learned during this time have been invaluable, shaping my approach to problem-solving and my ability to work effectively in high-pressure environments."
             ],
             duration: "May 2013 - Oct 2015",
-            feedback: "../Assets/GAIUS_Networks.pdf",
+            feedback: "https://drive.google.com/file/d/1hOIZ4G2jJ-k56-fZEuL-Mvv7V1A-ErlR/view?usp=drive_link",
         },
     ],    
     projects: [{
