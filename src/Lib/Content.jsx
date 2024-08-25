@@ -93,7 +93,7 @@ export default {
         },
     ],    
     projects: [{
-        title: "Bulk Email Verifier",
+        title: "Bulk Email Verifier & API Resources",
         description: "A SaaS web application for bulk email verification, allowing users to upload their email lists in CSV or TXT format for fast and accurate validation. The application is designed to process emails 100 times faster than other available verifiers, with an architecture ready for a bulk email debouncing feature.",
         stack: "Fast API & Next.js",
         link: "https://firi-cloud.vercel.app",
