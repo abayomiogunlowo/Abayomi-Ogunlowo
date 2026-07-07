@@ -79,7 +79,7 @@ export function SidebarDrawer(props) {
     const navigate = useNavigate();
     return (
         <div className={classes.root}>
-            <Typography variant="h5" className={classes.mainLogo}>Akshat&nbsp;<span className={classes.textColored}>Gupta</span></Typography>
+            <Typography variant="h5" className={classes.mainLogo}>Abayomi&nbsp;<span className={classes.textColored}>Ogunlowo</span></Typography>
             <SidebarElement
                 onClick={() => navigate("/")}
                 pathCheck={location.pathname === "/" || location.pathname === "/home/" || location.pathname === "/home"}

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f6e442a.css",
+    "main.js": "/static/js/main.4a93d3f1.js",
+    "static/media/AvenirNext-400.ttf": "/static/media/AvenirNext-400.872961ef584256892a40.ttf",
+    "static/media/AvenirNext-300.ttf": "/static/media/AvenirNext-300.6645a3120fe6551b3820.ttf",
+    "static/media/AvenirNext-700.ttf": "/static/media/AvenirNext-700.39d7707a022e73d8571d.ttf",
+    "static/media/AvenirNext-500.ttf": "/static/media/AvenirNext-500.588a49f7b67ee2dc6147.ttf",
+    "static/media/AvenirNext-600.ttf": "/static/media/AvenirNext-600.cdeaa6c92c9329923d0f.ttf",
+    "static/media/AvenirNext-900.ttf": "/static/media/AvenirNext-900.d95c5b81c01adf0e3ef4.ttf",
+    "static/media/Abayomi_Ogunlowo_Resume.pdf": "/static/media/Abayomi_Ogunlowo_Resume.055ea8ae49a26f7aebcc.pdf",
+    "static/media/Public_Speaking_abayomi.jpeg": "/static/media/Public_Speaking_abayomi.4b6f1d7f66630b56fe23.jpeg",
+    "static/media/Abayomi_Ogunlowo.jpeg": "/static/media/Abayomi_Ogunlowo.19ea48bb2b7c914daddc.jpeg",
+    "index.html": "/index.html",
+    "main.3f6e442a.css.map": "/static/css/main.3f6e442a.css.map",
+    "main.4a93d3f1.js.map": "/static/js/main.4a93d3f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f6e442a.css",
+    "static/js/main.4a93d3f1.js"
+  ]
+}

@@ -4,6 +4,7 @@ export default {
     projectManagement: ["Jira", "Asana", "Miro", "Figma", "Postman", "Slack", "Trello", "ClickUp", "Zeplin", "Google Play Developer", "App Store Connect"],
     marketing: ["Google Ads", "Google Search Console", "Google Analytics", "Google Trends", "SEM Rush", "HubSpot", "Google Data Studio", "GoHighLevel", "Zoho CRM", "HubSpot", "Zendesk", "Meta Ads", "Social Media Marketing", "Search Engine Optimisation", "Search Engine Marketing"],
     devOpsCloud: ["DNS Management", "CI/CD", "Kubernetes", "Docker", "Nginx", "AWS", "Google Cloud", "Heroku", "Azure", "Vercel", "Netlify", "Cloudflare"],
+    iotSystemsRobotics: ["IoT Architecture", "Embedded Systems", "Bluetooth Low Energy (BLE)", "Smart Lock Integration", "Hardware API Integration", "Robotics Control", "Microcontrollers"],
     education: {
         ug: {
             name: "ISM Adonai, Benin Republic",
@@ -93,6 +94,31 @@ export default {
         },
     ],    
     projects: [{
+        title: "Yime Bay",
+        description: "A next-generation e-commerce intranet platform powered by an agentic AI sales chatbot. Bypassing traditional platforms for a custom Next.js and FastAPI stack, it integrates an advanced conversational assistant that drives agentic flows—enabling users to browse, receive product recommendations, and complete purchases entirely through chat. Built on top of a global compliance framework, it handles multi-country tax routing, international payroll distributions, and multi-currency operations for enterprise administration.",
+        stack: "Next.js 15, FastAPI, MySQL & AI Service",
+        link: "https://yimebay.shop",
+    }, {
+        title: "Soljulian",
+        description: "An enterprise-grade intranet storefront featuring custom back-office dashboards and an automated conversational AI chatbot capable of closing sales natively. The platform utilizes a specialized Python backend to calculate complex multi-tier regional sales taxes and manage global HR operations—including international staff payroll and financial reconciliation—ensuring complete compliance for cross-border trade.",
+        stack: "Next.js 15, FastAPI, MySQL & AI Service",
+        link: "https://soljulian.shop",
+    }, {
+        title: "All About Babes",
+        description: "A custom boutique e-commerce intranet solution designed to automate retail operations through intelligent agentic chat workflows. Leveraging a unified FastAPI service, the site integrates an AI chatbot that personalizes customer shopping journeys and triggers real-time checkout actions. The system is backed by a global compliance engine that automates tax configurations and payroll processing across international regions.",
+        stack: "Next.js 15, FastAPI, MySQL & AI Service",
+        link: "https://allaboutbabes.shop",
+    }, {
+        title: "FIRI Solutions",
+        description: "An enterprise IT solutions orchestration hub and global compliance portal. Sharing the same custom Next.js and FastAPI backend framework as the e-commerce solutions, the platform serves as a central hub where clients can request, provision, and manage custom intranet solutions, corporate automations, and service pipelines, backed by automated contract management and global compliance tools.",
+        stack: "Next.js 15, FastAPI, MySQL & AI Service",
+        link: "https://firi-solutions.cloud",
+    }, {
+        title: "Aravista",
+        description: "A comprehensive web portal for Aravista, a premium consultancy firm. The application integrates a secure client portal with automated scheduling systems (via Google Calendar API) and a custom Gemini-powered chat assistant that parses data from Google Sheets to deliver instant, intelligent business consultations.",
+        stack: "Next.js, FastAPI, Google APIs & Gemini AI",
+        link: "https://consult-aravista.vercel.app",
+    }, {
         title: "Bulk Email Verifier & API Resources",
         description: "A SaaS web application for bulk email verification, allowing users to upload their email lists in CSV or TXT format for fast and accurate validation. The application is designed to process emails 100 times faster than other available verifiers, with an architecture ready for a bulk email debouncing feature.",
         stack: "Fast API & Next.js",

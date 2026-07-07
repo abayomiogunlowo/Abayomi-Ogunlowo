@@ -22,20 +22,20 @@ function AboutSection() {
                             About <span className={classes.textColored}>Me</span>
                         </Typography>
                         <Typography variant="h6" className={classes.subtitle}>
-                            Software Engineer from Nigeria, with expertise in building scalable and efficient systems using modern technologies. I have worked on a variety of projects ranging from SaaS applications to enterprise-level solutions.
+                            Full-Stack & Systems Engineer from Nigeria, specializing in building high-performance web applications, custom intranet environments, and hardware-linked IoT solutions. My experience ranges from deploying scalable SaaS architectures to engineering smart control systems (such as BLE integrations and RFID door locks) for hospitality, healthcare, and corporate environments.
                         </Typography>
                         <Typography variant="h6" className={classes.subtitle}>
                             What I bring to the table:
                             <ul>
-                                <li><b>Technical Expertise:</b> Proficient in Java, Spring-Boot, React, FastAPI, and a range of database technologies like MySQL and PostgreSQL.</li>
-                                <li><b>Project Management:</b> Experienced in managing projects from inception to deployment, ensuring quality and timely delivery.</li>
-                                <li><b>Innovative Solutions:</b> Focused on creating effective solutions that solve real-world problems, with a keen eye on scalability and performance.</li>
-                                <li><b>Team Collaboration:</b> Skilled in working with cross-functional teams, fostering an environment of collaboration and continuous learning.</li>
-                                <li><b>Strategic Thinking:</b> Aligning technology solutions with business goals to drive growth and efficiency.</li>
+                                <li><b>Full-Stack & Systems Engineering:</b> Proficient in React/NextJS, Python (FastAPI), Java (Spring Boot), Node.js, and database management (MySQL, PostgreSQL).</li>
+                                <li><b>IoT & Hardware Integration:</b> Experienced in linking software applications to physical IoT infrastructures, including Bluetooth Low Energy (BLE) systems, smart door locks, and custom hardware APIs.</li>
+                                <li><b>Project Architecture & Compliance:</b> Skilled at managing complex technical pipelines and building compliance-centric applications (handling automated tax calculations, global payroll networks, and service orchestrations).</li>
+                                <li><b>Robotics & Future Automation:</b> Actively expanding technical capabilities into robotics and automated control systems to bridge software logic with physical interaction.</li>
+                                <li><b>Strategic Collaboration:</b> Partnering with cross-functional teams to translate complex business requirements into clean, scalable, and secure production systems.</li>
                             </ul>
                         </Typography>
                         <Typography variant="h6" className={classes.subtitle}>
-                            My passion lies in taking innovative ideas and turning them into reality, ensuring they are functional and user-friendly.
+                            My passion lies in taking innovative ideas and turning them into reality, ensuring they are robust, functional, and user-friendly.
                         </Typography>
                     </Grid>
                 </Grid>

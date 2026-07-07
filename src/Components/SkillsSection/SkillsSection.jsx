@@ -54,6 +54,14 @@ function SkillsSection() {
                                 return (<Grid item key={index}><Chip label={item} color="primary" size="medium" className={(index % 2 === 0) ? classes.ChipPrimary : classes.ChipSecondary} key={index} md={3} /></Grid>);
                             })}
                         </Grid>
+                        <Typography variant="h5" className={classes.subtitle}>
+                            IoT, Systems & Robotics
+                        </Typography>
+                        <Grid container spacing={1}>
+                            {Content.iotSystemsRobotics.map((item, index) => {
+                                return (<Grid item key={index}><Chip label={item} color="primary" size="medium" className={(index % 2 === 0) ? classes.ChipPrimary : classes.ChipSecondary} key={index} md={3} /></Grid>);
+                            })}
+                        </Grid>
                         <Typography variant="body1" className={classes.byLine}>
                             You can check out some of <a href="https://www.linkedin.com/in/abayomi-victor-ogunlowo/" className={classes.textColored} target="_blank" rel="noreferrer">my work</a> or <Link to="/contact" className={classes.textColored}>get in touch</Link> with me.
                         </Typography>

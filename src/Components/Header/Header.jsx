@@ -33,7 +33,7 @@ export function NavBarElement(props) {
 function Header(props) {
     const classes = styles();
     const theme = useTheme();
-    const small = useMediaQuery(theme.breakpoints.down("sm"));
+    const small = useMediaQuery(theme.breakpoints.down("md"));
     const [drawerOpen, setDrawerOpen] = useState(false);
     const location = useLocation();
     const navigate = useNavigate();
@@ -55,7 +55,7 @@ function Header(props) {
                             className={classes.navbarElementsContainer}
                         >
                             {!small ? (
-                                <>
+                                <nav className={classes.navbarContainer}>
                                     <NavBarElement
                                         onClick={() => navigate("/")}
                                         pathCheck={location.pathname === "/" || location.pathname === "/home/" || location.pathname === "/home"}
@@ -86,7 +86,7 @@ function Header(props) {
                                     >
                                         Contact
                                     </NavBarElement>
-                                </>
+                                </nav>
                             ) :
                                 (
                                     <div>
