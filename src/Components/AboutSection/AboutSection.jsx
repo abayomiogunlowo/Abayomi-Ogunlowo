@@ -22,12 +22,13 @@ function AboutSection() {
                             About <span className={classes.textColored}>Me</span>
                         </Typography>
                         <Typography variant="h6" className={classes.subtitle}>
-                            Full-Stack & Systems Engineer from Nigeria, specializing in building high-performance web applications, custom intranet environments, and hardware-linked IoT solutions. My experience ranges from deploying scalable SaaS architectures to engineering smart control systems (such as BLE integrations and RFID door locks) for hospitality, healthcare, and corporate environments.
+                            Full-Stack & Systems Engineer from Nigeria, specializing in building high-performance web applications, custom intranet environments, and hardware-linked IoT solutions. My experience ranges from deploying scalable SaaS architectures and installable Progressive Web Apps (PWAs) to engineering smart control systems (such as BLE integrations and RFID door locks) for hospitality, healthcare, and corporate environments.
                         </Typography>
                         <Typography variant="h6" className={classes.subtitle}>
                             What I bring to the table:
                             <ul>
                                 <li><b>Full-Stack & Systems Engineering:</b> Proficient in React/NextJS, Python (FastAPI), Java (Spring Boot), Node.js, and database management (MySQL, PostgreSQL).</li>
+                                <li><b>PWA & Cross-Device Engineering:</b> Specialized in building Progressive Web Apps (PWAs) with Service Workers and custom manifests, allowing applications to be fully installable across mobile, tablet, and desktop viewports with offline-ready capabilities.</li>
                                 <li><b>IoT & Hardware Integration:</b> Experienced in linking software applications to physical IoT infrastructures, including Bluetooth Low Energy (BLE) systems, smart door locks, and custom hardware APIs.</li>
                                 <li><b>Project Architecture & Compliance:</b> Skilled at managing complex technical pipelines and building compliance-centric applications (handling automated tax calculations, global payroll networks, and service orchestrations).</li>
                                 <li><b>Robotics & Future Automation:</b> Actively expanding technical capabilities into robotics and automated control systems to bridge software logic with physical interaction.</li>

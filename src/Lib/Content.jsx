@@ -1,6 +1,6 @@
 /* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 export default {
-    languagesFrameworksTools: ["Python", "ReactJS", "NextJS", "TypeScript", "JavaScript", "Flutter", "GitHub", "Shopify", "WordPress", "Firebase", "HubSpot", "jQuery", "Agora", "Go", "NodeJS", "PHP", "Dart"],
+    languagesFrameworksTools: ["Python", "ReactJS", "NextJS", "TypeScript", "JavaScript", "Flutter", "GitHub", "Shopify", "WordPress", "Firebase", "HubSpot", "jQuery", "Agora", "Go", "NodeJS", "PHP", "Dart", "PWA (Progressive Web Apps)", "Service Workers", "Web App Manifests"],
     projectManagement: ["Jira", "Asana", "Miro", "Figma", "Postman", "Slack", "Trello", "ClickUp", "Zeplin", "Google Play Developer", "App Store Connect"],
     marketing: ["Google Ads", "Google Search Console", "Google Analytics", "Google Trends", "SEM Rush", "HubSpot", "Google Data Studio", "GoHighLevel", "Zoho CRM", "HubSpot", "Zendesk", "Meta Ads", "Social Media Marketing", "Search Engine Optimisation", "Search Engine Marketing"],
     devOpsCloud: ["DNS Management", "CI/CD", "Kubernetes", "Docker", "Nginx", "AWS", "Google Cloud", "Heroku", "Azure", "Vercel", "Netlify", "Cloudflare"],
@@ -33,23 +33,23 @@ export default {
     },
     work: [
         {
+            company: "FIRI Solutions, Lagos",
+            link: "https://firi-cloud.vercel.app/",
+            role: "Full Stack Engineer",
+            description: [
+                "As a Systems & Full Stack Engineer at FIRI Solutions, I led the development of secure, installable Progressive Web Apps (PWAs) and enterprise intranet systems. I architected and implemented robust FastAPI backend engines and React/Next.js store fronts integrated with hardware-level IoT controllers—such as Bluetooth Low Energy (BLE) sensors and RFID smart door locks—for hospitality and corporate environments. Additionally, I built and managed custom global compliance modules (including automated regional tax routing and international staff payroll engines) to orchestrate multi-tenant intranet platforms across desktop and mobile devices."
+            ],
+            duration: "Jan 2022 - Present",
+            feedback: "",
+        },
+        {
             company: "Decagon Institute",
             link: "https://decagon.institute/",
             role: "Software Engineer",
             description: [
                 "As an Associate Software Engineer at Decagon Institute, I have been actively involved in the design and development of scalable software solutions. My role encompasses collaborating with cross-functional teams to ensure that projects meet the highest standards of quality and functionality. I am responsible for writing clean, efficient, and well-documented code, following best practices to contribute to Decagon's innovative technology solutions. My work involves continuous learning and application of new technologies to improve the efficiency and performance of the software we deliver. This position has allowed me to enhance my problem-solving skills and contribute significantly to various projects, driving the success of our clients' objectives."
             ],
-            duration: "March 2024 - Present",
-            feedback: "",
-        },
-        {
-            company: "FIRI Solutions, Lagos",
-            link: "https://firi-cloud.vercel.app/",
-            role: "Full Stack Engineer",
-            description: [
-                "At FIRI Solutions, I served as a Full Stack Engineer, where I played a pivotal role in both the frontend and backend development of web applications. My responsibilities included architecting and implementing solutions that meet the client's needs, using a diverse technology stack that included ReactJS, NodeJS, and various cloud services. I worked closely with designers and project managers to deliver products that were not only functional but also user-friendly and visually appealing. During my tenure, I contributed to significant projects that enhanced the company's portfolio, helping businesses transform their operations through innovative digital solutions."
-            ],
-            duration: "Jan 2022 - 2024",
+            duration: "April 2024 - Oct 2024",
             feedback: "",
         },
         {
@@ -95,22 +95,22 @@ export default {
     ],    
     projects: [{
         title: "Yime Bay",
-        description: "A next-generation e-commerce intranet platform powered by an agentic AI sales chatbot. Bypassing traditional platforms for a custom Next.js and FastAPI stack, it integrates an advanced conversational assistant that drives agentic flows—enabling users to browse, receive product recommendations, and complete purchases entirely through chat. Built on top of a global compliance framework, it handles multi-country tax routing, international payroll distributions, and multi-currency operations for enterprise administration.",
+        description: "A next-generation, installable e-commerce intranet PWA powered by an agentic AI sales chatbot. Bypassing traditional platforms for a custom Next.js and FastAPI stack, it delivers a Progressive Web App (PWA) experience that can be installed on any mobile, tablet, or desktop device. It features an advanced conversational assistant driving agentic checkout flows, alongside multi-country tax routing and international payroll compliance systems.",
         stack: "Next.js 15, FastAPI, MySQL & AI Service",
         link: "https://yimebay.shop",
     }, {
         title: "Soljulian",
-        description: "An enterprise-grade intranet storefront featuring custom back-office dashboards and an automated conversational AI chatbot capable of closing sales natively. The platform utilizes a specialized Python backend to calculate complex multi-tier regional sales taxes and manage global HR operations—including international staff payroll and financial reconciliation—ensuring complete compliance for cross-border trade.",
+        description: "An enterprise-grade installable intranet storefront PWA featuring custom back-office dashboards and an automated conversational AI sales chatbot. Engineered as a Progressive Web App for cross-device installability and offline caching, it leverages a Python backend for multi-tier regional tax calculation and global staff payroll compliance.",
         stack: "Next.js 15, FastAPI, MySQL & AI Service",
         link: "https://soljulian.shop",
     }, {
         title: "All About Babes",
-        description: "A custom boutique e-commerce intranet solution designed to automate retail operations through intelligent agentic chat workflows. Leveraging a unified FastAPI service, the site integrates an AI chatbot that personalizes customer shopping journeys and triggers real-time checkout actions. The system is backed by a global compliance engine that automates tax configurations and payroll processing across international regions.",
+        description: "A custom boutique e-commerce intranet PWA designed to automate retail operations through intelligent agentic chat workflows. The platform is built as a Progressive Web App for installability on mobile and desktop devices, featuring personalized AI shopping assistants, real-time checkout flows, and automated tax and payroll compliance engines.",
         stack: "Next.js 15, FastAPI, MySQL & AI Service",
         link: "https://allaboutbabes.shop",
     }, {
         title: "FIRI Solutions",
-        description: "An enterprise IT solutions orchestration hub and global compliance portal. Sharing the same custom Next.js and FastAPI backend framework as the e-commerce solutions, the platform serves as a central hub where clients can request, provision, and manage custom intranet solutions, corporate automations, and service pipelines, backed by automated contract management and global compliance tools.",
+        description: "An enterprise IT solutions orchestration PWA and global compliance portal. Sharing the same custom Next.js and FastAPI backend framework, the application is built as an installable Progressive Web App (PWA) that allows clients to request, deploy, and manage their custom e-commerce and intranet installations across mobile, tablet, and desktop viewports.",
         stack: "Next.js 15, FastAPI, MySQL & AI Service",
         link: "https://firi-solutions.cloud",
     }, {
